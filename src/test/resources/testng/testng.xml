@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--suite name="MobileAutomationProject" parallel="tests" thread-count="2"-->
+<suite name="MobileAutomationProject" parallel="false" thread-count="1">
+
+    <test name="aag">
+        <parameter name="device" value="android" />
+        <parameter name="version" value="8.1" />
+        <classes>
+            <class name="com.myProjectModules.myFirstModule.AppTestRun" />
+        </classes>
+    </test>
+
+</suite>
